@@ -1,0 +1,76 @@
+* {
+    font-family: cursive;
+}
+
+body{
+    background-image: url(../images/algoritmo-com-o-homem-3d-23460065.png);
+    background-repeat: no-repeat;
+    font-family: cursive;
+}
+
+
+.badge-secondary{
+    background-color: rgb(200, 88, 186,0.3);
+    color: crimson;
+    margin-right: 10px;
+}
+
+#logica{
+    display: inline-block;
+    text-align: left;
+    vertical-align: center;
+    margin: 5%;
+}
+
+
+.button {
+    background-color: transparent;
+    border: none;
+    color: #333333;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Nanum Pen Script', cursive;
+    text-transform: uppercase;
+  }
+
+.button:disabled {
+     color: #c9c9c9;
+}
+
+#container {
+    width: 50vw;
+    float: right;
+}
+
+#keyboard {
+    width: 40vw;
+    margin: auto;
+}
+
+#palavra{
+    font-size: 50px;
+    font-family: 'Nanum Pen Script', cursive;
+    text-transform: uppercase;
+}
+
+#c1,#c2,#c3,#c4,#c5,#c6{
+    color: crimson;
+    display: inline-block;
+}
+
+#r1,#r2,#r3,#r4,#r5,#r6{
+    color: cadetblue;
+    display: inline-block;
+}
+h1{
+    color: #333333;
+}
+@media (max-width: 320px){
+    #container{
+        width: 94%;
+        text-align: center;
+        position: static;
+    }
+}
